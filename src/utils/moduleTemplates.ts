@@ -28,6 +28,7 @@ const moduleTemplates: IModuleTemplate = {
     devDependencies: [],
     nuxtModules: [],
   },
+  // TODO: remove axios from dependencies
   classAPIProvider: {
     url: "github:simagar/classAPIProvider",
     dependencies: ["axios"],
@@ -69,7 +70,6 @@ const moduleTemplates: IModuleTemplate = {
     dependencies: ["@vite-pwa/nuxt"],
     devDependencies: [],
     nuxtModules: ["@vite-pwa/nuxt"],
-
   },
 };
 
